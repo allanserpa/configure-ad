@@ -39,7 +39,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/oCfU90M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  <b>STEP 1B:</b> In the notifications tab, click on "Promote this Server to a Domain Controller" and setup a new Forest 
+  <b>STEP 1B:</b> In the notifications tab, click on "Promote this Server to a Domain Controller" and setup a new Forest
+  <br>
+  <b>STEP 1C:</b> Restart and then log back in as the Domain Contoller: "FORESTNAME\USERNAME"
 </p>
 <br />
 
