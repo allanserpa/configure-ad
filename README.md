@@ -23,7 +23,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 2: Create an Admin and Normal User Account in AD
 - Step 3: Join Client-1 to your Domain
 - Step 4: Setup Remote Desktop for Non-Administrative Users
-- Step 5: Create Additional Users and Attempt to Log into Client-1 with One of the Users
 
 <h2>Deployment and Configuration Steps</h2>
 
