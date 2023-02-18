@@ -36,7 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
  <br>
  <b>STEP 1C:</b> Restart and then log back in as the Domain Contoller: "FORESTNAME\USERNAME"
 </p>
-<br />
+<br/>
 
 <p>
  <b>STEP 2A:</b> In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
@@ -44,13 +44,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
  <b>STEP 2B:</b> Create a new OU named “_ADMINS”
  <br>
  <b>STEP 2C:</b> Create a new employee named “Jane Doe” with the username of “jane_admin”
- <img src="https://i.imgur.com/U1AFofa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br>
+ <br>
+ <br>
+ <img src="https://i.imgur.com/U1AFofa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>\>
  <br>
  <b>STEP 2D:</b> Add jane_admin to the “Domain Admins” Security Group
  <br> 
  <b>STEP 2E:</b> Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
  <br>
  <b>STEP 2F:</b> User jane_admin as your admin account from now on
+ <br>
+ <br>
 </p>
 <br />
 
@@ -60,6 +65,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <b>STEP 3A:</b> From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
   <br> 
   <b>STEP 3B:</b> From the Azure Portal, restart Client-1
+  <br>
+  <br>
   <br>
   <img src="https://i.imgur.com/NhP6Mpn.png"/>
   <b>STEP 3C:</b> Login to Client-1 (Remote Desktop) as the original local admin and go to system settings, then "Rename This PC (Advanced) and join it to the domain (computer will restart)
