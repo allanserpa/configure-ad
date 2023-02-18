@@ -61,7 +61,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <br> 
   <b>STEP 3B:</b> From the Azure Portal, restart Client-1
   <br>
-  <b>STEP 2C:</b> Create a new employee named “Jane Doe” with the username of “jane_admin”
+  <img src="https://i.imgur.com/NhP6Mpn.png"/>
+  <b>STEP 3C:</b> Login to Client-1 (Remote Desktop) as the original local admin and go to system settings, then "Rename This PC (Advanced) and join it to the domain (computer will restart)
   <br>
   <b>STEP 2D:</b> Add jane_admin to the “Domain Admins” Security Group
   <br> 
