@@ -69,12 +69,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <br>
   <br>
   <img src="https://i.imgur.com/NhP6Mpn.png"/>
-  <b>STEP 3C:</b> Login to Client-1 (Remote Desktop) as the original local admin and go to system settings, then "Rename This PC (Advanced) and join it to the domain (computer will restart)
+  <b>STEP 3C:</b> Login to Client-1 (Remote Desktop) as the original local admin and go to system settings, then "Rename This PC (Advanced) and join it to the domain     (computer will restart)
   <br>
-  <b>STEP 2D:</b> Add jane_admin to the “Domain Admins” Security Group
+  <b>STEP 3D:</b> Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers”     container on the root of the domain
   <br> 
-  <b>STEP 2E:</b> Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
+  <b>STEP 3E:</b> Create a new OU named “_CLIENTS” and drag Client-1 into there
+</p>
+<br />
+
+<p>
+  <img src="https://i.imgur.com/iJVSDAB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br>
-  <b>STEP 2F:</b> User jane_admin as your admin account from now on
+  <b>STEP 4A:</b> Log into Client-1 as mydomain.com\jane_admin and open system properties and click "Remote Desktop"
+  <br> 
+  <b>STEP 4B:</b> Allow “domain users” access to remote desktop (You can now log into Client-1 as a normal, non-administrative user now)
 </p>
 <br />
