@@ -32,13 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
   <b>STEP 1A:</b> In Server Manager, click on "Add Roles and Features" then Install Active Directory Domain Services
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/oCfU90M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+  <br> 
   <b>STEP 1B:</b> In the notifications tab, click on "Promote this Server to a Domain Controller" and setup a new Forest
   <br>
   <b>STEP 1C:</b> Restart and then log back in as the Domain Contoller: "FORESTNAME\USERNAME"
@@ -46,9 +40,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<b>STEP 2A:</b> In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+  <br> 
+  <b>STEP 2B:</b> Create a new OU named “_ADMINS”
+  <br>
+  <b>STEP 2C:</b> Create a new employee named “Jane Doe” with the username of “jane_admin”
+  <img src="https://i.imgur.com/U1AFofa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br>
+  <b>STEP 2D:</b> Add jane_admin to the “Domain Admins” Security Group
+  <br> 
+  <b>STEP 2E:</b> Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
+  <br>
+  <b>STEP 2F:</b> User jane_admin as your admin account from now on
 </p>
 <br />
