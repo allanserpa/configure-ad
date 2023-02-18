@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/bHcHiE4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qvW79bV.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <b>STEP 1A:</b> In Server Manager, click on "Add Roles and Features" then Install Active Directory Domain Services
